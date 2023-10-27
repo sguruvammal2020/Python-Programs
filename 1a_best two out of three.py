@@ -4,13 +4,13 @@
 avg_Test1=float(input("Enter the average of Test 1:"))
 avg_Test2=float(input("Enter the average of Test 2:"))
 avg_Test3=float(input("Enter the average of Test 3:"))
-if avg_Test1>avg_Test2 and avg_Test1>avg_Test3:
+if avg_Test1>=avg_Test2 and avg_Test1>=avg_Test3:
     best1=avg_Test1
-    if avg_Test2>avg_Test3:
+    if avg_Test2>=avg_Test3:
         best2=avg_Test2
     else:
         best2=avg_Test3
-elif avg_Test2>avg_Test3:
+elif avg_Test2>=avg_Test3:
     best1=avg_Test2
     best2=avg_Test3
 else:
